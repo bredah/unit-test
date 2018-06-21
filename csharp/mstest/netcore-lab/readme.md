@@ -1,5 +1,8 @@
 # Example: C# with .Net Core
 
+[![Build Status](https://travis-ci.org/csMACnz/Coveralls.net-Samples.svg?branch=sample-application)](https://travis-ci.org/bredah/unit-test.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/bredah/unit-test/badge.svg?branch=master)](https://coveralls.io/github/bredah/unit-test?branch=master)
+
 - [Project Structure](#Project-Structure)
 - [Environmnet Validation](#Environmnet-Validation)
 - [CLI](#CLI)
@@ -12,6 +15,14 @@
   - [Reference - Remove](#Reference---Remove)
   - [Package - Install](#Package---Install)
   - [Package - Restore](#Package---Restore)
+
+## Code Quality
+
+Install Coveralls plugin:
+
+```shell
+dotnet tool install -g coveralls.net --version 1.0.0
+```
 
 ## Project Structure
 
