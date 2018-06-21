@@ -1,9 +1,10 @@
 language: csharp
+solution: netcore-lab.sln
 mono: none
-dotnet: 2.0.0
-dist: trusty
+dotnet: 2.1.0
 sudo: false
 script:
+  - dotnet restore
   - dotnet clean
   - dotnet build
   - dotnet test
